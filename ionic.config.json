@@ -1,5 +1,7 @@
 {
   "name": "qrPWA",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

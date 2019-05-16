@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-back-button class="back-button"></ion-back-button>
+        </ion-buttons>
+    <ion-title>details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-refresher pullMax="1000" slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content pullingIcon="arrow-down" refreshingSpinner="crescent">
+    </ion-refresher-content>
+  </ion-refresher>
+  <div>My Content</div>
+</ion-content>
